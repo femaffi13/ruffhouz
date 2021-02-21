@@ -194,8 +194,8 @@ p{
     opacity: .5;
     position: absolute;
     transform: rotate(120deg);
-    bottom: 160px;
-    right: 100px;    
+    bottom: 180px;
+    right: 50px;    
 }
 
 .img-header-4{
@@ -203,13 +203,12 @@ p{
     opacity: .5;
     position: absolute;
     transform: rotate(300deg);
-    bottom: 270px;
-    left: 80px;    
+    bottom: 250px;
+    left: 15px;    
 }
 
 .container-cards{
     max-width: 1200px;
-    border: 1px solid white;
     width: 250px;
     display: flex;
     padding-top: 1.5rem;
@@ -219,7 +218,7 @@ p{
 .card-1{
     position: relative;
     background-color: rgb(255, 255, 255, .9);
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     border-radius: 1rem;
     text-align: right;
 }
@@ -232,13 +231,13 @@ p{
     position: absolute;
     width: 40px;
     top: 10px;
-    right: 110px;
+    right: 95px;
 }
 
 .img-card-1{
     position: absolute;
     width: 150px;
-    top: -38px;
+    bottom: -10px;
     left: -50px;
 }
 
@@ -247,7 +246,7 @@ p{
     margin-top: 1.5rem;
     background-color: #152838;
     color: #fff;
-    padding: 1rem 1.5rem;
+    padding: 1rem 1rem;
     border-radius: 1rem;
     text-align: left;
 }
@@ -256,13 +255,13 @@ p{
     position: absolute;
     width: 100px;
     top: -40px;
-    right: -30px;
+    right: -20px;
 }
 
 .ico-card-2{
     position: absolute;
     top: 15px;
-    left: 135px;
+    left: 120px;
     width: 40px;
     transform: rotate(-25deg);
 }
@@ -271,8 +270,9 @@ p{
 
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 576px){
     .container-cards{
+        padding-top: 0rem;
         width: 550px;
         flex-direction: row;
     }
@@ -287,6 +287,22 @@ p{
         margin-top: 0;
         border-top-left-radius: 0;
         border-bottom-left-radius:0;
+    }
+
+    .img-header-3{
+        right: 80px;
+        
+    }
+
+    .img-header-4{
+        left: 60px;
+    }
+
+    .img-card-1{
+        left: -20px;
+    }
+    .img-card-2{
+        right: 0px;
     }
 }
 

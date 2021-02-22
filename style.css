@@ -1,8 +1,8 @@
-    /* ********** Reset ********** */
+        /* ********** Reset ********** */
 html{
     box-sizing: border-box;
     font-size: 16px; 
-    scroll-behavior: smooth; }      /*  Efecto de scroll  */
+    scroll-behavior: smooth; } 
 
 *, *::after, *::before{
     box-sizing: inherit; }
@@ -11,7 +11,7 @@ body{
     width: 100vw;
     margin: 0;
     overflow-x: hidden;
-    background-color: #F9F6EE; }    /*  Evita la barra en X  */
+    background-color: #F9F6EE; } 
 
 a{  
     color: #222;
@@ -49,7 +49,6 @@ p{
    line-height: 1.6; }
 
             /****** Header ******/   
-
 .header{
     width: 100vw;
     height: 700px;
@@ -93,29 +92,25 @@ p{
     height: 380px;    
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; }
 
 .title-header{
     color: #fff;
     font-size: 8vw;
-    text-align: center;
-}
+    text-align: center; }
 
 .p-header{
     width: 60%;
     color: #fff;
     text-align: center;
-    opacity: .9;
-}
+    opacity: .9; }
 
 .container-btn{
     width: 75%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; }
 
 .btn-header-1{    
     width: 200px;
@@ -129,8 +124,7 @@ p{
     background-position: left;
     background-repeat: no-repeat;
     background-color: #ff7d26;
-    font-weight: 700;
-}
+    font-weight: 700; }
 
 .btn-header-2{
     width: 200px;
@@ -142,29 +136,24 @@ p{
     border-radius: 1rem;
     border: 3px solid #FDC402;
     cursor: pointer;
-    font-weight: 700;
-}
+    font-weight: 700; }
 
     @media screen and (min-width: 576px) {
         .container-btn{
             flex-direction: row;
-            justify-content: space-evenly;
-        }
+            justify-content: space-evenly; }
         .btn-header-2{
-            margin-top: 0;
-        }
+            margin-top: 0; }
     }
     
     @media screen and (min-width: 768px) {
         .container-btn{
-            width: 60%;
-        }
+            width: 60%; }
     }
     
     @media screen and (min-width: 992px) {
         .navbar{
-            display: block;
-        }
+            display: block; }
     }
     
     @media screen and (min-width: 1200px) {
@@ -177,8 +166,7 @@ p{
     position: absolute;
     transform: rotate(60deg);
     top: 190px;
-    right: 20px;    
-}
+    right: 20px; }
 
 .img-header-2{
     width: 40px;
@@ -186,8 +174,7 @@ p{
     position: absolute;
     transform: rotate(35deg);
     top: 180px;
-    left: 35px;    
-}
+    left: 35px; }
 
 .img-header-3{
     width: 40px;
@@ -195,8 +182,7 @@ p{
     position: absolute;
     transform: rotate(120deg);
     bottom: 180px;
-    right: 50px;    
-}
+    right: 50px; }
 
 .img-header-4{
     width: 40px;
@@ -204,42 +190,36 @@ p{
     position: absolute;
     transform: rotate(300deg);
     bottom: 250px;
-    left: 15px;    
-}
+    left: 15px; }
 
 .container-cards{
     max-width: 1200px;
     width: 250px;
     display: flex;
     padding-top: 1.5rem;
-    flex-direction: column;
-}
+    flex-direction: column; }
 
 .card-1{
     position: relative;
     background-color: rgb(255, 255, 255, .9);
     padding: 1rem 1rem;
     border-radius: 1rem;
-    text-align: right;
-}
+    text-align: right; }
 
 .card-1 h2, .card-2 h2{
-    font-size: 1.5rem;
-}
+    font-size: 1.5rem; }
 
 .ico-card-1{
     position: absolute;
     width: 40px;
     top: 10px;
-    right: 105px;
-}
+    right: 105px; }
 
 .img-card-1{
     position: absolute;
     width: 150px;
     bottom: -10px;
-    left: -65px;
-}
+    left: -65px; }
 
 .card-2{
     position: relative;
@@ -248,25 +228,20 @@ p{
     color: #fff;
     padding: 1rem 1rem;
     border-radius: 1rem;
-    text-align: left;
-}
+    text-align: left; }
 
 .img-card-2{
     position: absolute;
     width: 100px;
     top: -40px;
-    right: -20px;
-}
+    right: -20px; }
 
 .ico-card-2{
     position: absolute;
     top: 15px;
     left: 130px;
     width: 40px;
-    transform: rotate(-25deg);
-}
-
-
+    transform: rotate(-25deg); }
 
 @media screen and (min-width: 576px){
     .container-cards{
@@ -304,11 +279,9 @@ p{
     }
 }
 
-
             /****** Section 1 ******/ 
 .section1{
-    width: 100%;
-}
+    width: 100%; }
 
 .container-section1{
     padding-top: 11rem;
@@ -316,12 +289,10 @@ p{
     padding-right: 1.5rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; }
 
 .img-section1{
-    width: 70%;
-}
+    width: 70%; }
 
 @media screen and (min-width: 576px){
     .container-section1{
@@ -353,36 +324,38 @@ p{
     border-top-left-radius: 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+    align-items: center; }
 
 .container-section2 h3{
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem; }
 
 .img-section2{
-    display: none;
-}
+    display: none; }
 
 .event{
     width: 400px;
     padding: 0.5rem 1rem;
-    display: flex;
-}
+    display: flex; }
+
 .img-event{
     border: 1px solid black;
     width: 150px;
     height: 150px;
     display: flex;
     align-items: center;
-    text-align: center;
-}
+    text-align: center; }
 
 .text-event{
     display: flex;
     flex-direction: column;
     width: 250px;
-    padding: 0 1rem;
+    padding: 0 1rem; }
+
+.img2-section2{
+    width: 100%;
+    background-color: #EBE8E1;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
 @media screen and (min-width: 576px){    
@@ -408,6 +381,9 @@ p{
         z-index: -1;
         top: 0px;
     }
+    .img2-section2{
+        background-color: #F9F6EE;
+    }
     .event{
         width: 650px;
     }
@@ -421,24 +397,19 @@ p{
     }
 }
 
+        /*Utilities*/
 
-    /*Utilities*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto; }
 
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;        
-    }
+.btn:hover{
+    opacity: .75; }
 
-    .btn:hover{
-        opacity: .75;
-    }
+.p-blue{
+    color: #1B66A0; }
 
-    .p-blue{
-        color: #1B66A0;
-    }
-
-    .p-orange{
-        color: #EF5A24;
-    }
+.p-orange{
+    color: #EF5A24; }
 
     

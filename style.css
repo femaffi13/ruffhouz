@@ -365,9 +365,8 @@ p{
 }
 
 .event{
-    border: 1px solid black;
     width: 400px;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
 }
 .img-event{

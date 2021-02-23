@@ -316,7 +316,6 @@ p{
             /****** Section 2 ******/ 
 .container-section2{
     background-color: #EBE8E1;
-    border: 1px solid red;
     position: relative;
     width: 100%;
     padding: 2rem 1.5rem;
@@ -354,15 +353,6 @@ p{
     width: 250px;
     padding: 0 1rem; }
 
-.img3-section2{
-    width: 125px;
-    position: absolute;
-    bottom: -45px;
-    right: 100px;
-    transform: scaleX(-1);
-    z-index: 2;
-}
-
 @media screen and (min-width: 576px){   
     .container-section2{
         padding-bottom: 5rem;
@@ -379,9 +369,9 @@ p{
         background-color: #F9F6EE;
         width: 95%;
         margin: auto;
+        padding-bottom: 8rem;
         position: relative;
-        z-index: 1;
-        
+        z-index: 1;        
     }
     .img-section2{
         display: block;
@@ -401,7 +391,8 @@ p{
 }
 @media screen and (min-width: 992px) {
     .container-section2{
-        width: 75%;
+        padding-bottom: 15rem;
+        width: 85%;
     }
 }
 
@@ -426,23 +417,36 @@ p{
 }
 
 .img-top-section3{
-    max-width: 1000px;
+    width: 100%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
-    position: absolute;
+    margin-top: -5rem;
+    /*position: absolute;
     top: -80px;
-    z-index: 5;    
+    z-index: 5;    */
 }
 
 @media screen and (min-width: 768px){
     .img-top-section3{
-        top: -105px;
+        margin-top: -6.5rem;
     }
 }
 
 @media screen and (min-width: 992px){
     .img-top-section3{
-        top: -145px;
+        margin-top: -8rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .img-top-section3{
+        margin-top: -10rem;
+    }
+}
+
+@media screen and (min-width: 1490px){
+    .img-top-section3{
+        margin-top: -13.2rem;
     }
 }
 

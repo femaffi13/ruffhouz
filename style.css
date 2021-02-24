@@ -544,12 +544,17 @@ p{
             /****** Footer ******/
 .footer{
     width: 100%;
-    background-color: rgb(239, 90, 36);
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    margin-top: -5rem;
+    background-image: url(assets/Group\ 114.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
+    background-color: #EF5A24;
     position: relative;
     z-index: 5;
+    margin-top: -4rem;
 }
 .container-footer{
     padding-top: 1rem;

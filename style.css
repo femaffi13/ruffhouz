@@ -88,10 +88,13 @@ p{
     justify-content: space-evenly; }
 
 .header-center{
+    width: 90%;
+    margin: 0 auto;
     padding: 1.5rem 0;
     height: 380px;    
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center; }
 
 .title-header{
